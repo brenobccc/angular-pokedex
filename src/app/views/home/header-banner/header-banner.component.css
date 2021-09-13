@@ -1,0 +1,72 @@
+#banner-content{
+    height:270px;
+    background: #FF4747;
+    background-image: url("bannerimg.png");
+    background-repeat: no-repeat;
+    background-position:left;
+    
+    box-sizing: border-box;
+    background-size: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#banner-content .banner-box{
+    background: blue;
+    height: 80%;
+    width: 40%;
+}
+
+#banner-content #box1{
+    background: rgb(255, 255, 255);
+    height: 13%;
+    box-sizing: border-box;
+    padding: 5px 0px;
+
+    border-radius: 25px;
+    width: 30%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#banner-content #box1 input{
+    background: rgb(255, 255, 255);
+    height: 100%;
+    border: none; 
+    width: 80%;
+    font-size: 17px;
+    color: #E92323;
+}
+#banner-content #box1 img{
+    
+    height: 100%;
+
+}
+
+#banner-content #box1 input::placeholder{
+    color: #E92323;
+}
+
+#banner-content #box1 input:focus{
+    outline: none;
+}
+
+
+
+
+
+#banner-content #box2{
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 5px;
+    background: #c4c4c465;
+    box-sizing: border-box;
+    padding:20px;
+}
+
+

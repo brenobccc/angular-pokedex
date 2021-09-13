@@ -1,0 +1,35 @@
+#navbar{
+    height: 50px;
+    width: 100%;
+    background: black;
+    display: flex; 
+    justify-content: space-between;
+}
+
+#navbar img{
+    height: 100%;
+    width: 105px;
+}
+#navbar ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar li{
+    height: 65%;
+    border-radius: 3px;
+    color: white;
+    background: #FFB5B5;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#navbar li:hover{
+    background: #FF4747;
+}
