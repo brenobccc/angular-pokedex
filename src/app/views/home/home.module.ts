@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { HeaderNavComponent } from './header-nav/header-nav.component';
 import { HeaderBannerComponent } from './header-banner/header-banner.component';
+import { MainComponent } from './main/main.component';
 
 
 @NgModule({
@@ -12,10 +13,12 @@ import { HeaderBannerComponent } from './header-banner/header-banner.component';
     declarations: [
         HeaderComponent,
         HeaderNavComponent,
-        HeaderBannerComponent
+        HeaderBannerComponent,
+        MainComponent
     ],
     exports: [
-        HeaderComponent
+        HeaderComponent,
+        MainComponent
     ]
 })
 
