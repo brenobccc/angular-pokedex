@@ -6,19 +6,21 @@ import { AppComponent } from './app.component';
 import {SobreComponent} from './views/sobre/sobre.component';
 import {HomeComponent} from './views/home/home.component';
 import { HomeModule } from './views/home/home.module';
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
-  declarations: [
+  declarations: [//componentes que poderão ser usados
     AppComponent,
     SobreComponent,
     HomeComponent
   ],
-  imports: [
+  imports: [//módulos da aplicação
+    HttpClientModule,
     BrowserModule,
     AppRoutingModule,
     HomeModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [],//serviços
+  bootstrap: [AppComponent]//componente que será renderizado
 })
-export class AppModule { }
+export class AppModule { }//exportação da classe

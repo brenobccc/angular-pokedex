@@ -1,0 +1,19 @@
+ul li{
+    list-style: none;
+    background: #fff;
+    width: 230px;
+    height: 250px;
+    margin: 10px 12px;
+    border-radius: 15px;
+}
+
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main{
+    width: 90%; 
+    margin: auto;
+}
+
